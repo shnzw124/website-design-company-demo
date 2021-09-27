@@ -33,4 +33,19 @@ $(function(){
     }
   });
 
+  // フォームバリデーション
+  const $submitBtn = $('.form__btn')
+  $('.form input, .form textarea').on('change', function () {
+    if (
+      $('.form__input-name').val() != "" &&
+      $('.form__input-mail').val() != "" &&
+      $('.form__input-content').val() != "" &&
+      $('.form__input-checkbox').prop('checked') == true
+    ) {
+      $submitBtn.prop('disabled', false);
+    } else {
+      $submitBtn.prop('disabled', true);
+    }
+  });
+
 });
