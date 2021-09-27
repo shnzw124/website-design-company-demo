@@ -605,10 +605,9 @@ img {
 }
 
 @media screen and (max-width: 414px){
-  .header__menu, .header__inner > .btn {
+  .header__menu, .header__btn {
     display: none;
-  }
-  
+  } 
 }
 
 /* FIRST VIEW */
