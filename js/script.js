@@ -24,4 +24,13 @@ $(function(){
     return false;
   });
 
+  // アコーディオンパネル
+  $('.faq__title').click(function(){
+    if($(this).next('.faq__body').hasClass('faq__body--open')){
+      $(this).next('.faq__body').removeClass('faq__body--open');
+    }else{
+      $(this).next('.faq__body').addClass('faq__body--open');
+    }
+  });
+
 });

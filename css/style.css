@@ -329,9 +329,14 @@ img {
 }
 
 .faq__body {
+  display: none;
   padding: 22px 35px;
   border: 1px solid #E5E5E5;
   background-color: #F2F2F2;
+}
+
+.faq__body--open {
+  display: block;
 }
 
 /* card */
