@@ -441,7 +441,7 @@ img {
   border-radius: 8px;
   background-color: #fff;
   border: 1px solid #ddd;
-  min-width: 322px;
+  /* min-width: 322px; */
 }
 
 .rounded-card__img-wrapper {
