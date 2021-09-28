@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css"><!-- swiper -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- AOS.js -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
@@ -53,7 +54,7 @@
     <!-- FIRST VIEW -->
     <section id="fv" class="fv">
       <div class="fv__inner">
-        <div class="fv__content">
+        <div class="fv__content" data-aos="fade-up">
           <h1 class="fv__title level1-heading">
             コーディングの手間を <br>
             最小に、デザインに注力 <br>
@@ -67,7 +68,7 @@
           </p>
           <a href="#contact" class="btn">お問い合わせ</a>
         </div>
-        <img src="./img/manager-min.png" alt="manager" class="fv__img">
+        <img src="./img/manager-min.png" alt="manager" class="fv__img" data-aos="fade-up">
       </div>
       <span class="fv__circle"></span>
     </section>
@@ -75,12 +76,12 @@
     <!-- FEATURE -->
     <section id="feature" class="feature">
       <div class="feature__inner">
-        <div class="section-text">
+        <div class="section-text" data-aos="fade-up">
           <h1 class="section-text__heading level1-heading">ユアコーディング3つの特徴</h1>
           <p class="section-text__text">FEATURES</p>
         </div>
-        <h2 class="feature__heading level2-heading">高速コーディング</h2>
-        <div class="media">
+        <h2 class="feature__heading level2-heading" data-aos="fade-up">高速コーディング</h2>
+        <div class="media" data-aos="fade-up">
           <figure class="media__img-wrapper">
             <img src="./img/cto-min.png" alt="cto" class="media__img">
           </figure>
@@ -97,8 +98,8 @@
             </p>
           </div>
         </div>
-        <h2 class="feature__heading level2-heading">高品質</h2>
-        <div class="media media--reverse">
+        <h2 class="feature__heading level2-heading" data-aos="fade-up">高品質</h2>
+        <div class="media media--reverse" data-aos="fade-up">
           <figure class="media__img-wrapper">
             <img src="./img/building_website-min.png" alt="building_website" class="media__img">
           </figure>
@@ -115,8 +116,8 @@
             </p>
           </div>
         </div>
-        <h2 class="feature__heading level2-heading">迅速なレスポンス</h2>
-        <div class="media">
+        <h2 class="feature__heading level2-heading" data-aos="fade-up">迅速なレスポンス</h2>
+        <div class="media" data-aos="fade-up">
           <figure class="media__img-wrapper">
             <img src="./img/new_message-min.png" alt="new_message" class="media__img">
           </figure>
@@ -140,11 +141,11 @@
     <!-- PRICE -->
     <section id="price" class="price">
       <div class="price__inner">
-        <div class="section-text">
+        <div class="section-text" data-aos="fade-up">
           <h1 class="section-text__heading level1-heading">価格</h1>
           <p class="section-text__text">PRICE</p>
         </div>
-        <div class="horizontal-table">
+        <div class="horizontal-table" data-aos="fade-up">
           <table class="horizontal-table__inner">
             <tbody class="horizontal-table__body">
               <tr class="horizontal-table__row">
@@ -166,18 +167,18 @@
             </tbody>
           </table>
         </div>
-        <p class="note-text">＊詳細な価格はページや仕様によって異なります</p>
+        <p class="note-text" data-aos="fade-up">＊詳細な価格はページや仕様によって異なります</p>
       </div>
     </section>
 
     <!-- FAQ -->
     <section id="faq" class="faq">
       <div class="faq__inner">
-        <div class="section-text">
+        <div class="section-text" data-aos="fade-up">
           <h1 class="section-text__heading level1-heading">よくある質問</h1>
           <p class="section-text__text">FAQ</p>
         </div>
-        <dl class="faq">
+        <dl class="faq" data-aos="fade-up">
           <dt class="faq__title">
             <p class="faq__text">デザインから一貫してお願いすることは可能でしょうか</p>
           </dt>
@@ -210,11 +211,11 @@
     <!-- BLOG -->
     <section id="blog" class="blog">
       <div class="blog__inner">
-        <div class="section-text">
+        <div class="section-text" data-aos="fade-up">
           <h1 class="section-text__heading level1-heading">ブログ</h1>
           <p class="section-text__text">BLOG</p>
         </div>
-        <div class="cards cards--col3">
+        <div class="cards cards--col3" data-aos="fade-up">
           <div class="cards__item card">
             <figure class="card__img-wrapper">
               <img src="./img/austin-distel-wawEfYdpkag-unsplash-min.png" alt="" class="card_img">
@@ -249,7 +250,7 @@
     <!-- WORK -->
     <section id="work" class="work">
       <div class="work__inner">
-        <div class="section-text">
+        <div class="section-text" data-aos="fade-up">
           <h1 class="section-text__heading level1-heading">制作実績</h1>
           <p class="section-text__text">WORKS</p>
         </div>
@@ -312,7 +313,7 @@
           </div>
         </div> -->
 
-        <div class="swiper-container">
+        <div class="swiper-container" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="rounded-card swiper-slide">
               <figure class="rounded-card__img-wrapper">
@@ -380,15 +381,15 @@
     <!-- CONTACT -->
     <section id="contact" class="contact">
       <div class="contact__inner">
-        <div class="section-text section-text--white">
+        <div class="section-text section-text--white" data-aos="fade-up">
           <h1 class="section-text__heading level1-heading">お問い合わせ</h1>
           <p class="section-text__text">CONTACT</p>
         </div>
-        <p class="section-subtext section-subtext--white">
+        <p class="section-subtext section-subtext--white" data-aos="fade-up">
           コーディングの人出が足りないとき、 <br>
           あなたの力になります
         </p>  
-        <form action="#" class="form">
+        <form action="#" class="form" data-aos="fade-up">
           <div class="form__inner">
             <div class="form__area-name">
               <label for="name" class="form__label-name">お名前<span class="label">必須</span></label>
@@ -432,5 +433,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
     <script src="./js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script><!-- swiper -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script><!-- AOS.js -->
   </body>
 </html>
