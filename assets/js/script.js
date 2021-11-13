@@ -26,11 +26,7 @@ $(function(){
 
   // アコーディオンパネル
   $('.faq__title').click(function(){
-    if($(this).next('.faq__body').hasClass('faq__body--open')){
-      $(this).next('.faq__body').removeClass('faq__body--open');
-    }else{
-      $(this).next('.faq__body').addClass('faq__body--open');
-    }
+      $(this).next('.faq__body').slideToggle();
   });
 
   // フォームバリデーション
@@ -66,6 +62,8 @@ $(function(){
         spaceBetween: 30
       }
     },
+    loopedSlides: 5,
+    centeredSlides: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

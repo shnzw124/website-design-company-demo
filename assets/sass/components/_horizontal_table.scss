@@ -1,0 +1,29 @@
+/* horizontal-table */
+.horizontal-table {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+
+.horizontal-table__inner {
+  width: 100%;
+}
+
+.horizontal-table__header {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  padding: 40px 19px;
+  text-align: left;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.horizontal-table__text {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 40px 0 40px 30px;
+}
+
+.horizontal-table__row:last-child .horizontal-table__header,
+.horizontal-table__row:last-child .horizontal-table__text {
+  border-bottom-width: 0;
+}

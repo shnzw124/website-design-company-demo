@@ -1,0 +1,29 @@
+/* section-text */
+.section-text,
+.section-subtext {
+  text-align: center;
+}
+
+.section-text > .section-text__heading {
+  font-size: 2rem;
+  margin-bottom: 19px;
+}
+
+.section-text > .section-text__text {
+  color: #3ba6c9;
+}
+
+.section-text--white,
+.section-subtext--white {
+  color: #fff;
+}
+
+.section-text--white > .section-text__text {
+  color: #fff;
+}
+
+@media screen and (max-width: 414px) {
+  .section-text > .section-text__heading {
+    font-size: 1.5rem;
+  }
+}

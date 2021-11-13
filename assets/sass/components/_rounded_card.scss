@@ -1,0 +1,62 @@
+/* rounded-card */
+.rounded-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.rounded-card__img-wrapper {
+  overflow: hidden;
+  padding-top: 66.25%;
+  position: relative;
+}
+
+.rounded-card_img {
+  border-radius: 8px 8px 0 0;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.rounded-card__body {
+  padding: 24px 18px 34px 18px;
+}
+
+.rounded-card__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.rounded-card__title {
+  margin-bottom: 34px;
+}
+
+.rounded-card__text {
+  color: #777;
+  font-size: .875rem;
+}
+
+.rounded-cards {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.rounded-cards > .rounded-cards__item {
+  margin-bottom: 30px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+@media screen and (max-width: 414px) {
+  .rounded-card {
+    min-width: 280px;
+  }
+
+  .rounded-cards > .rounded-cards__item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+/* faq */
+.faq__title {
+  border: 1px solid #e5e5e5;
+  padding: 22px 35px;
+  text-align: center;
+}
+
+.faq__body {
+  background-color: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  display: none;
+  padding: 22px 35px;
+}
+
+.faq__body--open {
+  display: block;
+}

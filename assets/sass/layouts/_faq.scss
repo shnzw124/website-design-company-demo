@@ -1,0 +1,19 @@
+/* FAQ */
+.faq__inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-bottom: 86px;
+  padding-top: 64px;
+}
+
+.faq__inner > .section-text {
+  margin-bottom: 33px;
+}
+
+/* TB */
+@media screen and (max-width: 1024px) {
+  .faq__inner {
+    max-width: 95%;
+  }
+}

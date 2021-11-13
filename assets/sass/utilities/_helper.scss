@@ -1,0 +1,31 @@
+/* HELPER */
+.only-pc {
+  display: block;
+}
+
+.only-tb,
+.only-sp {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .only-tb {
+    display: block;
+  }
+
+  .only-pc,
+  .only-sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .only-sp {
+    display: block;
+  }
+
+  .only-pc,
+  .only-tb {
+    display: none;
+  }
+}

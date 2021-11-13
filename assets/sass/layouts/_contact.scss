@@ -1,0 +1,27 @@
+/* CONTACT */
+.contact {
+  background: linear-gradient(45deg, #05a5fa, #63fbd7);
+}
+
+.contact__inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-bottom: 70px;
+  padding-top: 72px;
+}
+
+.contact__inner > .section-text {
+  margin-bottom: 42px;
+}
+
+.contact__inner > .section-subtext {
+  margin-bottom: 44px;
+}
+
+/* TB */
+@media screen and (max-width: 1024px) {
+  .contact__inner {
+    max-width: 95%;
+  }
+}

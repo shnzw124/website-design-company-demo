@@ -1,0 +1,68 @@
+/* form */
+.form {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+
+.form__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 31px 62px 35px 63px;
+}
+
+.form__area-name,
+.form__area-mail {
+  max-width: 499px;
+}
+
+.form__area-name,
+.form__area-mail,
+.form__area-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__area-name > .form__label-name,
+.form__area-mail > .form__label-mail {
+  margin-bottom: 35px;
+}
+
+.form__area-content > .form__label-content {
+  margin-bottom: 30px;
+}
+
+.form__label-name > .label,
+.form__label-mail > .label,
+.form__label-content > .label {
+  margin-left: 23px;
+}
+
+.form__input-name,
+.form__input-mail {
+  background-color: #eefbfb;
+  border-radius: 3px;
+  height: 2.6875rem;
+  margin-bottom: 25px;
+}
+
+.form_input-content {
+  background-color: #eefbfb;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.form__area-checkbox {
+  margin-bottom: 31px;
+}
+
+.form__area-checkbox,
+.form__area-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 414px) {
+  .form__inner {
+    padding: 31px 20px 35px 20px;
+  }
+}

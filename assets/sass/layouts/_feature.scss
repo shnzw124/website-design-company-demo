@@ -1,0 +1,31 @@
+/* FEATURE */
+.feature__inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-bottom: 156px;
+  padding-top: 80px;
+}
+
+.feature__heading {
+  text-align: center;
+}
+
+.feature__inner > .section-text {
+  margin-bottom: 65px;
+}
+
+.feature__inner > .level2-heading {
+  margin-bottom: 54px;
+}
+
+.feature__inner > .media {
+  margin-bottom: 93px;
+}
+
+/* TB */
+@media screen and (max-width: 1024px) {
+  .feature__inner {
+    max-width: 95%;
+  }
+}
